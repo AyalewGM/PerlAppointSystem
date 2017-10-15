@@ -1,0 +1,157 @@
+*{
+    /* Universal reset: */
+    margin:0;
+    padding:0;
+}
+
+header{
+  text-align: center;
+    height: 100px; 
+    display:block;
+    background-color: #012602;
+    border:3px solid red;
+    border-radius: 25px;
+    float:right;
+    overflow:hidden;
+    width:99%;
+
+}
+header h1{
+margin-top:.75em; 
+font-size: 3em;
+}
+
+ 
+body{
+    /* Setting the default text color, size, page background and a font stack: */
+    
+    font-size:0.825em;
+    color:#fcfcfc;
+    background-color:#355664;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+input {
+    
+    margin-top:2em; 
+    cursor: inherit;
+    width: 180px;
+    text-overflow: 2em;
+    font-size: 1.5em;
+  
+}
+
+
+
+#error p {
+    margin-left: 35px;
+    color: yellow;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 200%;
+}
+ 
+ #main {
+    margin-top: 50px;
+    margin-left: 35px;
+}
+#toSelect {
+    margin-left: 35px;
+    width: 140px;
+	font-family: "Times New Roman", Georgia, Serif;
+	text-overflow: 2em;
+    font-size: 1.5em;
+
+}
+
+ #buttonwrapper {
+    width: 300px;
+    overflow: hidden;
+}
+#addButtonContainer {
+    width: 150px;
+    float: left;
+}
+#cancelButtonContainer {
+    overflow: hidden;
+}
+
+#tableDisplay {
+ 
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 2em;
+    padding-top: 2em; 
+}
+
+#tableDisplay table,th,td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    
+}
+label{
+    font-size: 1.5em;
+}
+form {
+    margin-left: 35px;
+    width: 500px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 100%;
+}
+
+.buttons {
+    
+float:center;
+     width: 110px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: -moz-linear-gradient(
+        top,
+        #eb1532 0%,
+        #800000);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#eb1532),
+        to(#800000));
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+    border: 1px solid #6d8000;
+    -moz-box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 2px rgba(255,255,255,1);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 2px rgba(255,255,255,1);
+    box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 2px rgba(255,255,255,1);
+    text-shadow:
+        0px -1px 0px rgba(255,255,255,0.2),
+        0px 1px 0px rgba(255,255,255,0.4);
+ 
+}
+input#cancel.buttons{
+    height: 80;
+}
+
+input#toSelect.inputs{
+    width: 180px;
+}
+ 
+#dataForm {
+    margin-left: 35px;
+}
+#content {
+    margin-left: 450px;
+}
